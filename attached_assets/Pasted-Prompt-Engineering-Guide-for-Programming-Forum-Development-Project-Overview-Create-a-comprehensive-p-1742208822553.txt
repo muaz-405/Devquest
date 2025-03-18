@@ -1,0 +1,120 @@
+Prompt Engineering Guide for Programming Forum Development
+Project Overview
+Create a comprehensive programming forum platform that enables developers to connect, share knowledge, and collaborate on coding challenges. The platform should foster a supportive community where programmers of all skill levels can ask questions, provide solutions, and engage in technical discussions.
+Core User Needs
+
+Knowledge sharing and problem-solving among developers
+Community building and professional networking
+Access to relevant expertise across different programming domains
+Efficient organization of technical discussions by topic
+Recognition for valuable contributions
+
+Key System Components
+1. User Registration and Profile Management
+Specifications:
+
+Implement secure user registration using email verification
+Create customizable user profiles that showcase technical expertise
+Design profile sections for programming languages, frameworks, projects, and achievements
+Include privacy controls for user information visibility
+
+2. Discussion Category Architecture
+Specifications:
+
+Develop a hierarchical category system with main categories and subcategories
+Create dedicated spaces for programming languages (Python, JavaScript, etc.)
+Design sections for frameworks, tools, career advice, and project collaborations
+Implement tagging system for cross-category content discovery
+
+3. Thread and Post Management
+Specifications:
+
+Enable creation of discussion threads with descriptive titles and tags
+Support rich text formatting with Markdown syntax
+Implement code block formatting with syntax highlighting for multiple languages
+Design intuitive UI for thread navigation and reply organization
+Create thread subscription functionality with customizable notification preferences
+
+4. Code Snippet Sharing System
+Specifications:
+
+Build a specialized code editor for posting snippets within discussions
+Support syntax highlighting for all major programming languages
+Implement line numbering and code execution capabilities where feasible
+Enable code snippet downloading and sharing
+
+5. Reputation and Voting System
+Specifications:
+
+Design a point-based reputation system that rewards quality contributions
+Create achievement badges for specific accomplishments (helpful answers, code contributions)
+Implement transparent voting mechanisms for posts and replies
+Establish reputation-based privileges that unlock advanced platform features
+
+6. Search and Discovery
+Specifications:
+
+Develop advanced search functionality with filters for categories, tags, and users
+Implement relevance-based sorting of search results
+Create a recommendation system for related threads and content
+Design a "trending discussions" feature to highlight popular topics
+
+7. Moderation Tools
+Specifications:
+
+Create a comprehensive reporting system for community moderation
+Develop automated content filtering for spam and inappropriate material
+Implement moderation queues for reviewing flagged content
+Design escalation paths for handling serious violations
+
+8. Private Messaging and Collaboration
+Specifications:
+
+Build a secure direct messaging system between users
+Support group conversations for team collaborations
+Enable file sharing within private conversations
+Implement read receipts and typing indicators
+
+9. Responsive Design
+Specifications:
+
+Ensure fully responsive interface across desktop, tablet, and mobile devices
+Optimize loading times for code snippets and images
+Design mobile-friendly navigation for complex thread structures
+Create adaptive layouts that prioritize content visibility on smaller screens
+
+Technical Considerations
+
+Backend framework selection (Node.js, Django, Ruby on Rails, etc.)
+Database architecture for efficient thread and post retrieval
+Caching strategies for high-traffic discussions
+Authentication security and data protection
+API design for potential third-party integrations
+Performance optimization for code snippet rendering
+
+User Experience Goals
+
+Clear information architecture that makes navigation intuitive
+Minimal friction for posting questions and responses
+Efficient notification system that keeps users engaged without overwhelming them
+Seamless transition between reading, writing, and coding activities
+Accessible interface that accommodates users with disabilities
+
+Implementation Priorities
+
+Core user authentication and basic forum functionality
+Code sharing capabilities with syntax highlighting
+Category and thread organization system
+Voting and basic reputation mechanics
+Search functionality and content discovery features
+Advanced features (private messaging, badges, etc.)
+Mobile optimization and responsive design
+Admin tools and moderation features
+
+Success Metrics
+
+User registration and retention rates
+Question response times and solution rates
+Content quality as measured by voting patterns
+Community growth and engagement metrics
+User progression through reputation levels
